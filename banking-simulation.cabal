@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: e1a883a2142dcf6165dbb108ef1735338452b057442c810ace8c1a4247482347
+-- hash: 5eccb729a571706c6adc0da572fb02182fbeaceeed682ed0e8921ddfc4246b72
 
 name:           banking-simulation
 version:        0.1.0.0
@@ -30,7 +30,9 @@ library
       Arrivals
       Bank
       CustomerEvent
+      MonteCarlo
       Queueing
+      Report
       ServedCustomer
       Util
       WaitTimes
