@@ -2,11 +2,11 @@ module Bank where
 
 import Arrivals
 import Control.Monad (foldM)
-import CustomerEvent
 import Data.Maybe (fromMaybe)
 import Safe (lastMay)
-import ServedCustomer
 import System.Random (randomRIO)
+import Types.CustomerEvent
+import Types.ServedCustomer
 import WaitTimes
 
 serveCustomer :: Int -> CustomerEvent -> (Int, ServedCustomer)

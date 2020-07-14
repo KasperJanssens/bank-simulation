@@ -1,8 +1,8 @@
 module Queueing where
 
-import CustomerEvent
+import Types.CustomerEvent
 import Data.List as List
-import ServedCustomer
+import Types.ServedCustomer
 import Util
 
 type MaxAndAverageQueueSize = (Int, Int)

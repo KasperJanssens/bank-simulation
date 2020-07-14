@@ -2,7 +2,7 @@ module QueueingSpec where
 
 import Test.Hspec
 import Queueing
-import ServedCustomer
+import Types.ServedCustomer
 
 queueEventConsumptionSpec :: Spec
 queueEventConsumptionSpec = describe "queue calculation should work" $ do

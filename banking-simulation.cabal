@@ -1,10 +1,10 @@
 cabal-version: 1.12
 
--- This file has been generated from package.yaml by hpack version 0.31.2.
+-- This file has been generated from package.yaml by hpack version 0.33.0.
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 5eccb729a571706c6adc0da572fb02182fbeaceeed682ed0e8921ddfc4246b72
+-- hash: 8bd51f6a197c97df7a31fd79e78edcd8367cb43ba7260fbae4c6c5ff82d3990c
 
 name:           banking-simulation
 version:        0.1.0.0
@@ -29,11 +29,11 @@ library
   exposed-modules:
       Arrivals
       Bank
-      CustomerEvent
       MonteCarlo
       Queueing
       Report
-      ServedCustomer
+      Types.CustomerEvent
+      Types.ServedCustomer
       Util
       WaitTimes
   other-modules:

@@ -1,7 +1,7 @@
 module WaitTimes where
 
-import CustomerEvent
-import ServedCustomer
+import Types.CustomerEvent
+import Types.ServedCustomer
 import Util
 
 type WaitTimeFunction = Double -> Int
